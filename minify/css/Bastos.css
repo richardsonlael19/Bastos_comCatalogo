@@ -1,0 +1,175 @@
+﻿.logo {
+    width: 150px;
+    position: relative;
+    left: 20px;
+}
+
+a {
+    color: grey
+}
+
+.redes {
+    margin-right: 10px;
+    padding-top: 20px
+}
+
+body {
+    background-image: url(../img/home.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.buscaInput {
+    width: 150px;
+    text-transform: uppercase
+}
+
+.button-pesquisa {
+    background: transparent;
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+    border: 0
+}
+
+.p-pesquisa {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px
+}
+
+.input {
+    background-color: white
+}
+
+.form-control::placeholder {
+    color: #88d70c;
+    text-align: center;
+    opacity: 1;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif
+}
+
+.junta-tamanho {
+    width: 450px;
+    height: 450px
+}
+
+.center-menu {
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center
+}
+
+#tamanho-input {
+    height: 25px;
+}
+
+#layout-desk {
+    background-image: url('../img/bg-catalogo.webp');
+    display: block;
+}
+
+#layout-mobile {
+    background-image: url('../img/bg-catalogo.webp');
+    display: none;
+}
+
+.pesquisa-avancada {
+    display: block;
+}
+
+@media (min-width:768px) {
+    .sidebar-button {
+        position: absolute;
+        float: right;
+        display: none
+    }
+    .pesquisa-desktop {
+        background-color: #88d70c;
+        height: 100%;
+        position: absolute;
+        left: 20%;
+        max-width: 500px
+    }
+}
+
+@media (max-width:767px) {
+    .pesquisa-mobile {
+        background-color: #88d70c
+    }
+    .logo-mobile {
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px
+    }
+    .desktop {
+        display: none
+    }
+    .p-pesquisa {
+        color: white;
+        font-size: 19px;
+        padding-top: 10px
+    }
+    .input {
+        background-color: white
+    }
+    .form-control::placeholder {
+        color: #88d70c;
+        font-size: 12px;
+        text-align: center;
+        opacity: 1;
+        font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif
+    }
+    .junta-tamanho {
+        width: 340px;
+        height: 340px
+    }
+    #layout-desk {
+        display: none;
+    }
+    #layout-mobile {
+        display: block;
+    }
+    .pesquisa-avancada {
+        display: none;
+    }
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #8cba35;
+    border-color: #8cba35
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: grey;
+    border-color: grey
+}
+
+.btn-success.focus,
+.btn-success:focus {
+    box-shadow: 0 0 0 .2rem rgba(71, 203, 103, .5)
+}
+
+.error-border {
+    border: 2px solid rgba(253, 28, 28, .835)
+}
+
+.sucess-border {
+    border: 2px solid rgb(2, 238, 34)
+}
