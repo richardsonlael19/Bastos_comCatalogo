@@ -1,0 +1,85 @@
+<!--CATÁLOGO DESKTOP-->
+    <selection class="afastar catalogo ">
+        <div class=" afastar fundo pb-4" id="layout">
+
+            <h2 style="font-weight: bold;" class=" text-center " id="catalogo">Catálogo Eletrônico</h2>
+
+            <form method="POST" onsubmit="validacao()">
+                <div class="text-center container col-lg-5 afastar pb-4" style="background-color: #b2d292;">
+                    <div class=" form-group row">
+                        <label class="col-lg-4 sizecatalogo ">Palavra-chave</label>
+
+                        <input type="search" class="form-control col-lg-6 m-4 my-auto m-4 my-auto borda" placeholder="Palavra-chave " id="palavrachave" onclick="apagar_palavrachave()">
+
+
+                    </div>
+
+
+                    <div class=" form-group row  ">
+                        <label class="col-lg-4 sizecatalogo  ">Código bastos</label>
+
+                        <input type="search" class="form-control col-lg-6 m-4 my-auto borda" placeholder="Código bastos " id="codbastos" onclick="apagar_codigo()">
+
+
+                    </div>
+
+
+                    <div class=" form-group row ">
+                        <label class="col-lg-4 sizecatalogo  ">N° Original|Similar</label>
+
+                        <input type="search" class="form-control col-lg-6 m-4 my-auto borda" placeholder="N° Original|Similar " id="similar" onclick="apagar_similar()">
+
+
+                    </div>
+
+
+                    <div class=" form-group row ">
+                        <label class="col-lg-4 sizecatalogo  ">Medida Redentor</label>
+
+                        <input type="search" class="form-control col-lg-6 m-4 my-auto borda" placeholder="Medida Redentor " id="medida" onclick="apagar_geral()">
+
+
+                    </div>
+
+
+                    <div class=" form-group row ">
+                        <label class="col-lg-4 sizecatalogo  ">Montadora</label>
+
+                        <input type="search" class="form-control col-lg-6 m-4 my-auto borda" placeholder="Montadora " id="montadora" onclick="apagar_geral()">
+
+
+                    </div>
+
+
+                    <div class=" form-group row ">
+                        <label class="col-lg-4 sizecatalogo  ">Veículo</label>
+
+                        <input type="search" class="form-control col-lg-6 m-4 my-auto borda" placeholder="Veículo " id="veiculo" onclick="apagar_geral()">
+
+
+                    </div>
+
+
+                    <div class=" form-group row ">
+                        <label class="col-lg-4 sizecatalogo  ">Sub Grupo</label>
+
+                        <input type="search" class="form-control col-lg-6 m-4 my-auto borda" placeholder="Sub Grupo " id="subgrupo" onclick="apagar_geral()">
+
+
+                    </div>
+
+                    <button type="submit " class="btn btn-success " id="botaoenviar ">Pesquisar</button>
+
+                </div>
+            </form>
+        </div>
+
+
+
+    </selection>
+
+------------------------------------------------------------
+
+<a  href="#catalogo" class="col-2 ml-2 btn btn-light btn-sm pesquisa-avancada">Pesquisa Avançada </a>
+
+<li ><a class="waves-effect" href="#catalogo">PESQUISA</a></li>
