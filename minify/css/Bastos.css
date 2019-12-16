@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-image: url(../img/home.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -48,18 +48,8 @@ a {
 }
 
 .button-pesquisa {
-    background: 0 0;
-    height: 55px;
+    background-color: white;
     width: 55px;
-    border-radius: 50px;
-    border: 0
-}
-
-.pesquisa {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    padding-top: 10px
 }
 
 .input {
@@ -123,11 +113,6 @@ a {
     .desktop {
         display: none
     }
-    .pesquisa {
-        color: #fff;
-        font-size: 19px;
-        padding-top: 10px
-    }
     .input {
         background-color: #fff
     }
@@ -163,4 +148,20 @@ a {
 
 .sucess-border {
     border: 2px solid #02ee22
+}
+
+.cormenuplaca {
+    background-color: #88d70c;
+    height: auto;
+}
+
+.fontplaca {
+    font-size: 25px;
+    color: white;
+}
+
+@media (max-width:800px) {
+    .fontplaca {
+        font-size: 16px;
+    }
 }
