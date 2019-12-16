@@ -14,22 +14,10 @@ body {
     padding-top: 10px
 }
 
-.logo {
-    width: 150px
-}
-
 a {
     color: grey
 }
 
 h5 {
     line-height: 4px
-}
-
-.error-border {
-    border: 2px solid rgba(253, 28, 28, .835)
-}
-
-.sucess-border {
-    border: 2px solid rgb(2, 238, 34)
 }

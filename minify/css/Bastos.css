@@ -1,7 +1,36 @@
-﻿.logo {
+﻿body {
+    background-image: url(../img/home.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.afastar {
+    padding-top: 40px
+}
+
+.fundo {
+    background-image: url(minify/img/bg-catalogo.png);
+    background-size: cover
+}
+
+.logo {
     width: 150px;
     position: relative;
-    left: 20px;
+    left: 20px
+}
+
+.sizecatalogo {
+    font-size: 20px
 }
 
 a {
@@ -13,47 +42,32 @@ a {
     padding-top: 20px
 }
 
-body {
-    background-image: url(../img/home.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
 .buscaInput {
     width: 150px;
     text-transform: uppercase
 }
 
 .button-pesquisa {
-    background: transparent;
+    background: 0 0;
     height: 55px;
     width: 55px;
     border-radius: 50px;
     border: 0
 }
 
-.p-pesquisa {
-    color: white;
+.pesquisa {
+    color: #fff;
     font-size: 20px;
     font-weight: 700;
     padding-top: 10px
 }
 
 .input {
-    background-color: white
+    background-color: #fff
 }
 
 .form-control::placeholder {
+    font-size: 20px;
     color: #88d70c;
     text-align: center;
     opacity: 1;
@@ -72,22 +86,12 @@ html {
     justify-content: center
 }
 
-#tamanho-input {
-    height: 25px;
-}
-
-#layout-desk {
-    background-image: url('../img/bg-catalogo.webp');
-    display: block;
-}
-
-#layout-mobile {
-    background-image: url('../img/bg-catalogo.webp');
-    display: none;
+#layout {
+    background-image: url(../img/bg-catalogo.webp)
 }
 
 .pesquisa-avancada {
-    display: block;
+    display: block
 }
 
 @media (min-width:768px) {
@@ -119,33 +123,20 @@ html {
     .desktop {
         display: none
     }
-    .p-pesquisa {
-        color: white;
+    .pesquisa {
+        color: #fff;
         font-size: 19px;
         padding-top: 10px
     }
     .input {
-        background-color: white
-    }
-    .form-control::placeholder {
-        color: #88d70c;
-        font-size: 12px;
-        text-align: center;
-        opacity: 1;
-        font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif
+        background-color: #fff
     }
     .junta-tamanho {
         width: 340px;
         height: 340px
     }
-    #layout-desk {
-        display: none;
-    }
-    #layout-mobile {
-        display: block;
-    }
     .pesquisa-avancada {
-        display: none;
+        display: none
     }
 }
 
@@ -171,5 +162,5 @@ html {
 }
 
 .sucess-border {
-    border: 2px solid rgb(2, 238, 34)
+    border: 2px solid #02ee22
 }
