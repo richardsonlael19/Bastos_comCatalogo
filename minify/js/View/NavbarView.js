@@ -14,7 +14,7 @@ class NavbarView extends View {
         <br>   
         <p class="mx-auto text-center align-text-bottom fontplaca"><strong>Encontre nossos produtos pela placa.</strong></p>
                 <div class="row mx-auto" >
-                <form onsubmit="controlle.envia(event)" class="form-inline col-sm-12 my-2 my-lg-0 font-dark ">
+                <form onsubmit="controle.enviar(event)" class="form-inline col-sm-12 my-2 my-lg-0 font-dark ">
                        <input  type="text" class="form-control buscaInput col-md-4 col-3  ml-3 placa bordainput input mx-auto"" id="placa" placeholder="PLACA "> 
                         <input type="text" class="form-control buscaInput col-md-4 col-4 ml-3 produto bordainputproduto input mx-auto"" id="produto" placeholder="PRODUTO" />
                         <button  type="submit" class="button-pesquisa buscaInputMobile  btn btn-light ml-2 col-2">Buscar</button> <br> <br>
